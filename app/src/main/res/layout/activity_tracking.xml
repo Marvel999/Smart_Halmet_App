@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map"
+    tools:context=".tracking">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@drawable/circuler_cornner_gray"
+        >
+
+        <ImageView
+            android:id="@+id/path"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/path" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comment"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:text="Towards Right"
+            android:textSize="30dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/km"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="2dp"
+            android:text="200m"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/patrol2"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:padding="5dp"
+        android:onClick="Patrol2"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="188dp"
+        app:srcCompat="@drawable/direction" />
+
+    <ImageView
+        android:id="@+id/diraction"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginLeft="148dp"
+        app:srcCompat="@drawable/ellipse" />
+
+
+    <ImageView
+        android:id="@+id/triangle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginLeft="177dp"
+        app:srcCompat="@drawable/triangle" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:background="#000"
+        android:layout_marginTop="727dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circuler_blue_cornner"
+        android:layout_marginTop="677dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:background="@drawable/circuler_cornner_black"
+        android:layout_marginTop="680dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nearby"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Nearby"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/place_name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Patrol Pump "
+                android:textSize="10dp"
+                android:textColor="#FFF"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="680dp"
+        android:text="2.5"
+        android:textSize="50dp"
+        android:textColor="#FFF"/>
+
+</RelativeLayout>

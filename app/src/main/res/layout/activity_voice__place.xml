@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/elements_map"
+    tools:context=".VOICE_PLACE">
+
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/location"
+        android:layout_marginTop="350dp"
+        android:visibility="visible"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#000"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="20"
+        app:civ_shadow_color="#000"/>
+
+
+    <ImageView
+        android:id="@+id/patrol1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circuler_blue_cornner"
+        android:padding="5dp"
+        android:onClick="Patrol1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="310dp"
+        app:srcCompat="@drawable/patrol" />
+
+
+    <ImageView
+        android:id="@+id/patrol2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/circuler_blue_cornner"
+        android:padding="5dp"
+        android:onClick="Patrol2"
+        android:layout_marginTop="233dp"
+        android:layout_marginLeft="215dp"
+        app:srcCompat="@drawable/patrol" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/circuler_cornner_white"
+            android:paddingHorizontal="20dp"
+            android:hint="Where to?"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="500dp">
+
+
+        <ImageView
+            android:id="@+id/patrol"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circuler_cornner_white"
+            android:padding="10dp"
+            android:onClick="Patrol"
+            android:layout_marginLeft="325dp"
+            app:srcCompat="@drawable/patrol" />
+
+        <ImageView
+            android:id="@+id/findmech"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circuler_cornner_white"
+            android:padding="10dp"
+            android:onClick="Mech"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/mechanic" />
+
+
+
+        <ImageView
+            android:id="@+id/ac"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circuler_cornner_white"
+            android:padding="10dp"
+            android:onClick="Ac"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ac" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:background="#000"
+        android:layout_marginTop="727dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:background="@drawable/circuler_cornner_black"
+        android:layout_marginTop="680dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nearby"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Nearby"
+            android:textStyle="bold"
+            android:textSize="15dp"
+             android:textColor="#FFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/place_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:text="Patrol Pump "
+            android:textSize="10dp"
+            android:textColor="#FFF"/>
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="680dp"
+        android:text="02"
+        android:textSize="50dp"
+        android:textColor="#FFF"/>
+
+
+</RelativeLayout>

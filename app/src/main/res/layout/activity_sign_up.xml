@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_up"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/thim_image">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/one_cornner_round" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SING UP"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="205dp"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:id="@+id/name"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/circuler_cornner_white"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hint="Name"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:paddingHorizontal="20dp"
+            android:background="@drawable/circuler_cornner_white"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hint="Email id"/>
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:background="@drawable/circuler_cornner_white"
+            android:layout_gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Password"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:id="@+id/conpassword"
+            android:background="@drawable/circuler_cornner_white"
+            android:layout_gravity="center"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:hint="Conform Password"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/SignUp"
+            android:background="#00FFFFFF"
+            android:text="SIGN UP"
+            android:paddingHorizontal="20dp"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:onClick="Up"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFF"
+            />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
