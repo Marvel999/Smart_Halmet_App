@@ -10,6 +10,10 @@
 [![Platform](https://img.shields.io/badge/platform-android-blue.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+
+## Objective
+This an android app made for an IOT Project In Which We are try to solve the Problem of Road accident and Save Life Of the people And make helmet comfortable so that user feel happy to use helmet.We are providing caller Information to the rider and nearest patrolpump and helmet cooling control by smartphone by an android app app is connected to helmet by bluetooth BLE.
+
 # UI/UX 
 ### UI Testing Links
 https://xd.adobe.com/view/a279b6bc-d7c5-41b2-419b-ff832462b02a-d448/?fullscreen&hints=off
@@ -22,8 +26,17 @@ https://dribbble.com/shots/10760554-Smart-Helmet-IOT
 https://drive.google.com/file/d/12UXlFTT0ffAy7Bxek3TM1kdtlBAxS9Ym/view?usp=sharing
 
 
+## How to contribute?
 
+1. Fork the repository 
+2. Do the desired changes (add/delete/modify)
+3. Make a pull request
 
+## What I'll be doing with this repository
+
+Constructive criticisms or code reviews of any kind are very much welcome.
+
+If you have any questions about the App you can find here, feel free to contact me **manishjobs1999@gmail.com**.
 
  LICENCE
 -----
