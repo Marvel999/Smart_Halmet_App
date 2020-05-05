@@ -12,7 +12,7 @@
 
 
 ## Objective
-This an android app made for an IOT Project In Which We are try to solve the Problem of Road accident and Save Life Of the people And make helmet comfortable so that user feel happy to use helmet.We are providing caller Information to the rider and nearest patrolpump and helmet cooling control by smartphone by an android app app is connected to helmet by bluetooth BLE.
+This is an android app made for an IOT Project In Which We are try to solve the Problem of Road accident and Save Life Of the people And make helmet comfortable so that user feel happy to use helmet.We are providing caller Information to the rider and nearest patrolpump and helmet cooling control by smartphone by an android app is connected to helmet by bluetooth BLE.
 
 # UI/UX 
 ### UI Testing Links
