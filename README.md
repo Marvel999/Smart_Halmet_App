@@ -1,5 +1,12 @@
 # Smart Halmet App
-![app_templets](https://user-images.githubusercontent.com/43094705/79355535-6e72f300-7f5b-11ea-99d4-5e1d406ca8b9.png)
+
+<p align="center">
+  <img 
+       width="700"
+       height="500"
+   src="https://user-images.githubusercontent.com/43094705/79355535-6e72f300-7f5b-11ea-99d4-5e1d406ca8b9.png">
+</p>
+
 [![Platform](https://img.shields.io/badge/platform-android-blue.svg)](http://developer.android.com/index.html)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
